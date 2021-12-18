@@ -1,0 +1,120 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+body {
+
+font-family: Arial, serif;
+background-image: url(fond1.jpg);
+background-attachment :scroll ;
+background-repeat: repeat;
+color: black ;
+width: 100%;
+margin: 0 auto;
+}
+
+img{
+clip-path: circle(30%);
+border-color: azure;
+border: 40px;
+}
+
+
+h1{
+	text-align: center;
+	text-transform: capitalize;
+    font-size: 30
+
+}
+
+h2{
+	text-align: center;
+	font-size: 25px; 
+	
+}
+
+h5{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+h4{
+	text-align: center;
+	font-weight: bold;
+
+}
+html, body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+section #services {
+  text-align: center;
+  ;
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  text-align: center;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: black ;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  transition: all 0.5s ease;
+}
+section #services li a {
+  color: black;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+  color: black;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+.credits a {
+  display: block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 50px;
+  padding: 20px;
+  max-width: 300px;
+}
+
+hr {
+    border: none;
+    border-top: 8px double black;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 4px;
+    width: 1000px
+
+}
+
+hr:after {
+    background: none;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: 0px;
+}
